@@ -29,7 +29,7 @@ import static java.util.Collections.emptyMap;
  * Configures Kafka listeners
  */
 @DescriptionFile
-@JsonPropertyOrder({"brokerCertChainAndKey", "ingressClass", "preferredAddressType", "externalTrafficPolicy", "loadBalancerSourceRanges", "bootstrap", "brokers"})
+@JsonPropertyOrder({"brokerCertChainAndKey", "ingressClass", "preferredAddressType", "externalTrafficPolicy", "loadBalancerSourceRanges", "bootstrap", "brokers", "useServiceDnsDomain"})
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Buildable(
     editableEnabled = false,
